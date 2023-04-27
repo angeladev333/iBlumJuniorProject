@@ -13,6 +13,12 @@ package angelaxuiblum;
 
 public class App 
 {
+    /**
+     * printMultiples(s) prints the corresponding string result for each number s
+     * @param int s
+     * @return string result
+     */
+
     public String printMultiples(int s) {
         String result = "";
         boolean mult = false;
@@ -44,6 +50,10 @@ public class App
         return result;
     }
 
+    /**
+     * main class to execute function from 1 to 105 onto console
+     * @param args
+     */
     public static void main( String[] args )
     {
         App app = new App();
